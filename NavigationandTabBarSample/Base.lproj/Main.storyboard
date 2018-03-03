@@ -73,12 +73,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LlT-HB-0mT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="278" y="-699"/>
+            <point key="canvasLocation" x="277.60000000000002" y="-699.40029985007504"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="b61-Lj-Ufc">
             <objects>
-                <viewController id="ptI-E4-hZU" customClass="ViewController" customModule="NavigationandTabBarSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ptI-E4-hZU" customClass="SecondViewController" customModule="NavigationandTabBarSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nzH-6L-Bmh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,12 +95,20 @@
                                     <action selector="next" destination="ptI-E4-hZU" eventType="touchUpInside" id="Uhu-UR-lLM"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wB5-i5-EYT">
+                                <rect key="frame" x="101" y="122" width="172" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9G8-16-EcC"/>
                     </view>
                     <connections>
-                        <segue destination="zth-d4-Ie3" kind="show" identifier="toNext" id="p7m-mM-TZc"/>
+                        <outlet property="label" destination="wB5-i5-EYT" id="IaN-GZ-IHl"/>
+                        <segue destination="zth-d4-Ie3" kind="show" identifier="toThird" id="p7m-mM-TZc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dNf-MH-ptF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -142,6 +150,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="KBc-Qx-dAB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U7O-Uv-Phr">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

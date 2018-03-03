@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A2E361E204AC87500D13DB0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E361D204AC87500D13DB0 /* SecondViewController.swift */; };
 		2A473C742046AD7400F17B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A473C732046AD7400F17B80 /* AppDelegate.swift */; };
 		2A473C762046AD7400F17B80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A473C752046AD7400F17B80 /* ViewController.swift */; };
 		2A473C792046AD7400F17B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A473C772046AD7400F17B80 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A2E361D204AC87500D13DB0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2A473C702046AD7400F17B80 /* NavigationandTabBarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationandTabBarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A473C732046AD7400F17B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A473C752046AD7400F17B80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				2A473C9B2046D7C800F17B80 /* icons8-2-c-26.png */,
 				2A473C732046AD7400F17B80 /* AppDelegate.swift */,
 				2A473C752046AD7400F17B80 /* ViewController.swift */,
+				2A2E361D204AC87500D13DB0 /* SecondViewController.swift */,
 				2A473C892046D3B000F17B80 /* TabbarBackViewController.swift */,
 				2A473C8B2046D3BD00F17B80 /* NavigationBackViewController.swift */,
 				2A473C772046AD7400F17B80 /* Main.storyboard */,
@@ -153,6 +156,7 @@
 				2A473C8A2046D3B000F17B80 /* TabbarBackViewController.swift in Sources */,
 				2A473C762046AD7400F17B80 /* ViewController.swift in Sources */,
 				2A473C8C2046D3BD00F17B80 /* NavigationBackViewController.swift in Sources */,
+				2A2E361E204AC87500D13DB0 /* SecondViewController.swift in Sources */,
 				2A473C742046AD7400F17B80 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
